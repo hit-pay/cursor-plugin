@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hitpay": {
+      "type": "http",
+      "url": "https://mcp.hit-pay.com/"
+    }
+  }
+}

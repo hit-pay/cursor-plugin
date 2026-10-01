@@ -1,0 +1,33 @@
+{
+  "name": "hitpay",
+  "displayName": "HitPay",
+  "version": "1.0.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Query sales, transactions, payouts, and balances, and create payment links and invoices.",
+  "author": {
+    "name": "HitPay",
+    "email": "nitin@hit-pay.com"
+  },
+  "homepage": "https://docs.hitpayapp.com/apis/guide/mcp-server",
+  "repository": "https://github.com/hit-pay/cursor-plugin",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": [
+    "hitpay",
+    "payments",
+    "payment links",
+    "invoices",
+    "payouts",
+    "mcp"
+  ],
+  "category": "integrations",
+  "tags": [
+    "hitpay",
+    "payments",
+    "finance",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
+}
