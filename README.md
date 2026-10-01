@@ -1,6 +1,6 @@
 # HitPay
 
-Cursor plugin that connects agents to [HitPay](https://hit-pay.com) through HitPay's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server.
+Cursor plugin that connects agents to [HitPay](https://hitpayapp.com) through HitPay's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server.
 
 Ask about your HitPay business in plain language: sales, transactions, payouts, and balances. Create payment links, invoices, products, and recurring plans. The server cannot refund, cancel, move money, or change settings.
 
