@@ -1,0 +1,10 @@
+{
+  "name": "hitpay",
+  "version": "1.0.1",
+  "description": "Query sales, transactions, payouts, and balances, and create payment links and invoices.",
+  "mcpServers": {
+    "hitpay": {
+      "httpUrl": "https://mcp.hit-pay.com/"
+    }
+  }
+}

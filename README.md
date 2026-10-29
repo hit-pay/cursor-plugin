@@ -1,6 +1,6 @@
 # HitPay
 
-Cursor plugin that connects agents to [HitPay](https://hitpayapp.com) through HitPay's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server.
+Cursor plugin and Gemini CLI extension that connects agents to [HitPay](https://hitpayapp.com) through HitPay's hosted [Model Context Protocol](https://modelcontextprotocol.io/) server.
 
 Ask about your HitPay business in plain language: sales, transactions, payouts, and balances. Create payment links, invoices, products, and recurring plans. The server cannot refund, cancel, move money, or change settings.
 
@@ -11,6 +11,14 @@ Ask about your HitPay business in plain language: sales, transactions, payouts, 
 3. Click **Install**, then complete the HitPay sign-in prompt.
 
 Or run `/add-plugin hitpay` in chat.
+
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/hit-pay/cursor-plugin
+```
+
+Gemini CLI prompts for HitPay sign-in the first time it connects. Run `/mcp auth hitpay` if it does not.
 
 Signing in opens the HitPay dashboard in your browser. Choose the business to connect under **Connect as** and approve. Only users with the **owner** or **admin** role on a business can authorize a connection.
 
